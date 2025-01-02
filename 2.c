@@ -13,9 +13,8 @@ int main(void) {
         val = prev_1 + prev_2;
         prev_1 = prev_2;
         prev_2 = val;
-
-        //printf("%d\n", val);
     }
+    
     printf("%d\n", sum);
     return 0;
 }
